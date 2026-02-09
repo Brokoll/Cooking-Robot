@@ -1,0 +1,24 @@
+{
+    "meta": {
+        "name": "test_recipe"
+    },
+    "robot": {
+        "type": "arm",
+        "dof": 6
+    },
+    "program": [
+        {
+            "action": "pick",
+            "object": "rice_bowl"
+        },
+        {
+            "action": "place",
+            "target": "pan"
+        },
+        {
+            "action": "stir",
+            "target": "pan",
+            "duration": 5
+        }
+    ]
+}
